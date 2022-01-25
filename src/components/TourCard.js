@@ -37,6 +37,7 @@ const TourCard =({tour})=>{
         <Paper elevation ={3} >
         <img 
         src={tour.image}
+        alt=""
         className="img"
         />
         <Box paddingX={1}>

@@ -22,7 +22,7 @@ export default function Tour() {
         <QuiltedImageList />
       </Box>
       <Typography variant="h6" component="h4" marginTop={3}>
-        About this ticket
+        About the Event
       </Typography>
       <Box sx={{ display: "flex" }}>
         <Typography variant="paragraph" component="p" marginY={3}>

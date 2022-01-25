@@ -1,10 +1,9 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import TourCard from "../components/TourCard.js";
+import TourCard from "../components/TourCard";
 import cities from "../data.json";  
 
-export default function Home() {
-  return (
+const Home = () => (
       <div className="App">
         <Container sx={{marginY:5}}>
           {cities.map((city)=>(
@@ -19,7 +18,8 @@ export default function Home() {
             </Typography>
             {<Grid container spacing = {5}>
             {city.tours.map((tour,index) => 
-            (<TourCard tour={tour} key = {index} />))}
+            (<TourCard tour={tour} key = {index} />
+            ))}
           </Grid>}
             </>
             
@@ -28,4 +28,5 @@ export default function Home() {
         </Container>
       </div>
   );
-}
+
+  export default Home;

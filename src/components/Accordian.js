@@ -62,7 +62,7 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel1")}
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>How long is the travel?</Typography>
+          <Typography>How long is the event?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -94,7 +94,7 @@ export default function CustomizedAccordions() {
         onChange={handleChange("panel3")}
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>What will we see?</Typography>
+          <Typography>What we have to do for the ticket?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
