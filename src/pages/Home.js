@@ -1,10 +1,7 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import TourCard from "../components/TourCard.js";
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import cities from "../data.json";
-import { Typography } from "@mui/material";
+import cities from "../data.json";  
 
 export default function Home() {
   return (
